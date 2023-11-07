@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "variationalsparsebayes"
+version = "0.3.0"
+description = "Stochastic variational inference with sparsity inducing priors in PyTorch."
+authors = ["Kevin Course <kevin.course@mail.utoronto.ca>"]
+license = "GNUv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+torch = "^2.1.0"
+numpy = "^1.26.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest-xdist = "^3.3.1"
+scipy = "^1.11.3"
+scikit-learn = "^1.3.2"
+matplotlib = "^3.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
