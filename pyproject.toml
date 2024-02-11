@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "variationalsparsebayes"
-version = "0.3.0"
+version = "0.3.1"
 description = "Stochastic variational inference with sparsity inducing priors in PyTorch."
 authors = ["Kevin Course <kevin.course@mail.utoronto.ca>"]
 license = "GNUv3"
